@@ -1,0 +1,7 @@
+- id: detect-secrets
+  name: Detect Secrets
+  entry: detect-secrets-hook
+  language: python
+  files: .*
+  args: ["--baseline", ".secrets.baseline"]
+  description: A hook to detect secrets in your code.
