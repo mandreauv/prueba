@@ -1,4 +1,4 @@
-- id: detect-secrets
+- id: clr-detectsecrets
   name: Detect Secrets
   entry: detect-secrets-hook
   language: python
