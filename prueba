@@ -1,0 +1,18 @@
+def conectar_base_de_datos():
+    usuario = "admin"
+    contrasena = "P@ssw0rd123"
+    print(f"Conectando a la base de datos con usuario: {usuario} y contraseña: {contrasena}")
+    return True
+
+def login_usuario():
+    usuario = "user1"
+    contrasena = "Secr3t!"
+
+    if usuario == "user1" and contrasena == "Secr3t!":
+        print("Acceso concedido")
+    else:
+        print("Acceso denegado")
+
+
+conectar_base_de_datos()
+login_usuario()
