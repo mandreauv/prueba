@@ -2,4 +2,4 @@ repos:
 - repo: https://github.com/mandreauv/prueba
   rev: 88553af610221bb5a32f3588e07a4eb595ed541c
   hooks: 
-  - id: clr-detectsecrets
+  - id: detect-secrets
